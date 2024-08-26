@@ -25,7 +25,7 @@ function App() {
       {todos.map((todo, index) => {
         return (
           <div key={index}>
-            <Todo title={todo.title} userid={todo.userId} />
+            <Todo title={todo.title} userId={todo.userId} completed={todo.completed} />
           </div>
         );
       })}
